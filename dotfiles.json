@@ -1,0 +1,16 @@
+{
+    "description": "dotfiles",
+    "homepage": "https://github.com/rhysd/dotfiles",
+    "version": "0.2.0",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/rhysd/dotfiles/releases/download/v0.2.0/dotfiles_windows_amd64.exe.zip",
+            "hash":"sha256:2543654121229bb8cb8b1dfcad29ba476630af785eb15a45d81d26c8ad8bf49e"
+        },
+        "32bit": {
+            "url": "https://github.com/rhysd/dotfiles/releases/download/v0.2.0/dotfiles_windows_386.exe.zip"
+        }
+    },
+    "bin": "dotfiles.exe"
+}
